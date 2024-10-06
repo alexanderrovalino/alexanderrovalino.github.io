@@ -1,29 +1,35 @@
-.header {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
-  background: #1abc9c; /* green background */
-  color: white; /* white text color */
-}
-
-/* Increase the font size of the <h1> element */
-.header h1 {
-  font-size: 40px;
+* {
+  box-sizing: border-box;
 }
 
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
-  background-color: #333; /* Dark background color */
+  background-color: #d7cec3;
+  font-family: helvetica;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #157a4a;
+}
+
+.navbar h1 {
+  float: left;
+  font-size: 40px;
+  font-family: helvetica;
+  font-weight: 600;
+  margin-right: 20px;
 }
 
 /* Style the navigation bar links */
 .navbar a {
   float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
   text-align: center; /* Center the text */
   padding: 14px 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
+  color: #157a4a;
+  font-weight: 600;
 }
 
 /* Right-aligned link */
@@ -33,12 +39,88 @@
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: #ddd; /* Grey background color */
   color: black; /* Black text color */
 }
 
+.header {
+  padding: 200px; /* some padding */
+  text-align: center; /* center the text */
+  background: #d7cec3;
+  font-family: helvetica;
+  color: #157a4a;
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.section1 {
+  padding: 40px; /* some padding */
+  text-align: center; /* center the text */
+  background: #157a4a;
+  font-family: helvetica;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Increase the font size of the <h1> element */
+.section1 h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.section1 h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.section1 p {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.imageContainer {
+   display: flex;
+   justify-content: center;
+}
+
+.image {
+   background: white;
+   padding: 20px;
+   margin: 40px;
+   border-radius: 20px;
+}
+
+.image h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+
+.image p {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: black
+}
+
 .footer {
-  padding: 20px; /* Some padding */
-  text-align: center; /* Center text*/
-  background: #ddd; /* Grey background */
+  padding: 40px; /* Some padding */
+  text-align: left;
+  background: #157a4a;
+}
+
+.footer h2 {
+   float: left;
+   font-family: helvetica;
+   color: white;
+}
+
+.footer h2.right {
+   float: right;
 }
