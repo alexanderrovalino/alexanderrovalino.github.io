@@ -121,11 +121,11 @@ body {
 
 .roundImage {
    border-radius: 100px;
+  overflow: hidden;
 }
 
 .roundImage img {
   width: 200px;
-  height: 200px;
 }
 
 .footer h2 {
