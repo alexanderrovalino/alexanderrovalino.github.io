@@ -122,10 +122,12 @@ body {
 .roundImage {
    border-radius: 100px;
   overflow: hidden;
+  max-width: 200px;
 }
 
 .roundImage img {
   width: 200px;
+  object-fit: cover;
 }
 
 .footer h2 {
