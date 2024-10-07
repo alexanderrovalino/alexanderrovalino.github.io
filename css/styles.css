@@ -115,6 +115,10 @@
   background: #157a4a;
 }
 
+.roundImage {
+   border-radius: 100px;
+}
+
 .footer h2 {
    float: left;
    font-family: helvetica;
