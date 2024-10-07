@@ -22,6 +22,20 @@ body {
   padding-left: 100px;
   padding-right: 100px;
   color: #157a4a;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.navbarLeft {
+  display: flex;
+  align-items: center;
+}
+
+.navbarRight {
+
+  display: flex;
+  align-items: center;
 }
 
 .navbar h1 {
@@ -34,7 +48,6 @@ body {
 
 /* Style the navigation bar links */
 .navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
   text-align: center; /* Center the text */
   padding: 14px 20px; /* Add some padding */
@@ -55,10 +68,13 @@ body {
 
 .header {
   padding: 200px; /* some padding */
-  text-align: center; /* center the text */
+  text-align: left; /* center the text */
   background: #d7cec3;
   font-family: helvetica;
   color: #157a4a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Increase the font size of the <h1> element */
@@ -120,12 +136,13 @@ body {
   color: black
 }
 
-
-
 .roundImage {
-   border-radius: 100px;
+  border: solid 5px #157a4a;
+  border-radius: 100px;
   overflow: hidden;
   max-width: 200px;
+  max-height: 200px;
+  display: flex;
 }
 
 .roundImage img {
